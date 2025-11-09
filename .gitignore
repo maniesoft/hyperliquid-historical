@@ -3,3 +3,5 @@ csv/
 data/manifest.keys
 /hl_data
 lz4.exe
+/trades
+hyperliquid_historical.py.old
