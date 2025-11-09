@@ -1,2 +1,5 @@
 downloads/
 csv/
+data/manifest.keys
+/hl_data
+lz4.exe
