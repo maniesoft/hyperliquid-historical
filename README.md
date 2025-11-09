@@ -1,3 +1,5 @@
+This is a fork from the original which was not working. Problem was the method of requester-pays. I think it wasnt a problem when it was first released. Dont forget to have your AWS-Account set up before (not in this project).
+
 A CLI tool for downloading tick level historical price data from Hyperliquid exchange.  Additionally, there are options for decompressing downloaded lz4 files and converting decompressed files to CSV files.
 
 Requirements: Python 3.10 or above, pip, boto3, lz4
