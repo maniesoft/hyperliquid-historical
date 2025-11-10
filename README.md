@@ -84,5 +84,13 @@ options:
   -sh Start hour  Hour of the starting day as an integer between 0 and 23. e.g. 9 Default: 0
   -ed End date    Ending date as one unbroken string formatted: YYYYMMDD. e.g. 20230916
   -eh End hour    Hour of the ending day as an integer between 0 and 23. e.g. 9 Default: 23
+
 ```
 
+<h4>Trade Download</h4>
+
+```
+
+example: python hyperliquid_historical.py download --trades --src node_fills_by_block -sd 20250727 -sh 0 -ed 20250731 -eh 23 --tout .\trades --workers 12 -v
+
+```
